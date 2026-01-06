@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git/GitHub 学習中 🚀</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .emoji {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        h1 {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        
+        .progress-section {
+            margin: 40px 0;
+        }
+        
+        .progress-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        
+        .achievement {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            text-align: left;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .achievement:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .achievement-date {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 5px;
+        }
+        
+        .achievement-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .achievement-desc {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .status {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        .status h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        
+        .status p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .checkmark {
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🚀</div>
+        <h1>Git/GitHub 学習中</h1>
+        <p class="subtitle">プログラミングの旅、始めました</p>
+        
+        <div class="progress-section">
+            <div class="progress-title">📚 学習の記録</div>
+            
+            <div class="achievement">
+                <div class="achievement-date">2026年1月</div>
+                <div class="achievement-title"><span class="checkmark">✓</span> Gitの基礎を習得</div>
+                <div class="achievement-desc">
+                    Gitのインストール、初期設定、基本コマンド（init, add, commit）を学習しました。
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-date">2026年1月</div>
+                <div class="achievement-title"><span class="checkmark">✓</span> GitHubアカウント作成</div>
+                <div class="achievement-desc">
+                    GitHubアカウントを作成し、リモートリポジトリの概念を理解しました。
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-date">2026年1月</div>
+                <div class="achievement-title"><span class="checkmark">✓</span> 初めてのPush成功</div>
+                <div class="achievement-desc">
+                    ローカルリポジトリをGitHubにプッシュすることに成功。リモート操作の基礎を習得しました。
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-date">2026年1月</div>
+                <div class="achievement-title"><span class="checkmark">✓</span> ブランチ操作を習得</div>
+                <div class="achievement-desc">
+                    main と develop ブランチを作成し、ブランチ間の切り替えができるようになりました。
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-date">2026年1月</div>
+                <div class="achievement-title"><span class="checkmark">✓</span> GitHub Pages でサイト公開</div>
+                <div class="achievement-desc">
+                    このページを GitHub Pages で公開することに成功しました！
+                </div>
+            </div>
+        </div>
+        
+        <div class="status">
+            <h2>現在の目標 🎯</h2>
+            <p>
+                Git/GitHubの基本をマスターし、<br>
+                実践的なワークフローを身につける。<br>
+                そして、いつか自分のプロジェクトを公開する！
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>このページは学習の一環として作成されました</p>
+            <p>毎日少しずつ、着実に前進中 💪</p>
+        </div>
+    </div>
+</body>
+</html>
